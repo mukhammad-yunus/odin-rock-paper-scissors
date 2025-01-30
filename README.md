@@ -5,8 +5,8 @@ A simple **Rock Paper Scissors** game built as part of [The Odin Project](https:
 ## 🚀 Features  
 - Play against the computer in a best-of-five match  
 - Interactive UI with real-time feedback  
-- Built using **HTML, CSS, and JavaScript**  
-
+- Built using **JavaScript**  
+- Since the assignment states that only **JavaScript** should be used, I did not include any unnecessary styling or HTML elements beyond what was required.  
 ## 🔗 Live Demo  
 In Progress  
 
@@ -16,4 +16,4 @@ In Progress
 - CSS  
 
 ## 📌 Status  
-In Progress 
+Completed
