@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>RPS</title>
-</head>
-<body>
-  <script type="module" src="./index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RPS</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="welcome">Rock Paper Scissors</p>
+      <div class="score-container">
+        <div class="user-score-container">
+          <p>User</p>
+          <p id="user-score"></p>
+        </div>
+        <div class="computer-score-container">
+          <p>Computer</p>
+          <p id="computer-score"></p>
+        </div>
+      </div>
+    </header>
+    <main id="game">
+      <div class="result">
+        <p class="announcement"></p>
+        <div class="choices">
+          <p id="user-choice"></p>
+          <p class="vs">VS</p>
+          <p id="computer-choice"></p>
+        </div>
+      </div>
+      <div id="user-choice">
+        <button>Rock</button>
+        <button>Paper</button>
+        <button>Scissors</button>
+      </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
 </html>
