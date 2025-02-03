@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+* {
+  margin: 0;
+}
+body {
+  background: #1b486b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  color: white;
+}
+header.header {
+  padding: 2rem;
+}
+p.welcome {
+  font-size: 2rem;
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.5;
+}
+
+div.score-container {
+  justify-self: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+}
+div.user-score-container,
+div.computer-score-container {
+  flex: 1;
+  padding: 0.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+#computer-score,
+#user-score {
+  font-size: 5rem;
+  line-height: 1;
+}
+#computer-score {
+  color: red;
+}
+#user-score {
+  color: rgb(95, 95, 255);
+}
+main#game {
+  font-family: "Orbitron", serif;
+  padding: 0 2rem;
+  background: #000;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+div.result {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.user-choice {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+div.choices{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 3.5rem;
+
+}
+div.choices p{
+  width: 45%;
+}
+div.choices p.vs{
+  font-size: 1rem;
+  width: 5%;
+}
+div.user-choice button {
+  flex: 1;
+  font-size: 1.75rem;
+  border: none;
+  cursor: pointer;
+  background-color: #1b486b;
+  color: white;
+  border-radius: 5px;
+  transition: box-shadow .3s ease-in-out;
+  font-family: inherit;
+  user-select: none;
+}
+div.user-choice button:hover {
+  box-shadow: 1px 1px;
+}

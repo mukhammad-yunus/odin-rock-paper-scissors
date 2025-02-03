@@ -23,6 +23,7 @@ function playRound(e){
   
   computerChoiceEl.textContent = computerChoice
   userChoiceEl.textContent = userChoice
+  announcementEl.style.color = 'white'
   if(userChoice == 'scissors' && computerChoice == 'paper'){
     resultText = "You won!"
     userScore ++
@@ -35,6 +36,7 @@ function playRound(e){
   } else if (userChoice == computerChoice){
     resultText = "It is a tie"
   } else{
+    announcementEl.style.color = 'red'
     resultText = "You Lost!"
     computerScore ++
   }
