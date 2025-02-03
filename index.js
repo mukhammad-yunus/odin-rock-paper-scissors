@@ -48,27 +48,3 @@ function getComputerChoice(){
   const ranNum = Math.floor(Math.random()*3)
   return rpsChoice[ranNum]
 }
-
-
-// function playRound(humanChoice, computerChoice){
-//   // Below handles invalid choice
-//   if(!rpsChoice.includes(humanChoice)){
-//     console.log("You entered an invalid choice")
-//     return
-//   }
-// }
-
-// function playGame(){
-//   const humanChoice = getHumanChoice()
-//   if (humanChoice === null) return;
-//   const computerChoice = getComputerChoice()
-//   playRound(humanChoice, computerChoice)
-// }
-
-// playGame()
-// playGame()
-// playGame()
-// playGame()
-// playGame()
-// console.log("Your score: " + humanScore)
-// console.log("Computer's score: " + computerScore)
